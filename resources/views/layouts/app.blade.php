@@ -31,7 +31,8 @@
             @endif
             @guest
             {{--<button class="" type="submit">Registrarse</button>--}}
-            <a class="btn btn-outline-success my-2 my-sm-0" href="{{ route('register') }}">Registrarse</a>
+             <a class="btn btn-outline-success my-2 my-sm-0 mr-3" href="/">Sign in</a>
+            <a class="btn btn-outline-success my-2 my-sm-0" href="{{ route('register') }}">Sign up</a>
             @endguest
          </div>
         </nav>
